@@ -1,7 +1,7 @@
 # Latch-lock-security-system
 Arduino code for a latch lock that works on commands from an android device and lock/unlock when the correct password is given.
 
-The hardware of this lock consists of an Arduino UNO microcontroller, a bluetooth module compatible with arduino, a servo motor compatible with arduino and a latch. The setup will be fixed to the door. The rotation of servpo governs the motion of lock. The servo rotates when arduino successfully connects to an android device via bluetooth and recieves a specific password from the device. To connect to the BT module and send password, an app is already available on Google Play Store. Furthermore, I'll post the code for a better version of the android app here after some time. 
+The hardware of this lock consists of an Arduino UNO microcontroller, a bluetooth module compatible with arduino, a servo motor compatible with arduino and a latch. The setup will be fixed to the door. The rotation of servo governs the motion of lock. The servo rotates when arduino successfully connects to an android device via bluetooth and recieves a specific password from the device. To connect to the BT module and send password, an app is already available on Google Play Store. Furthermore, I'll post the code for a better version of the android app here after some time. 
 
 To know more about the mechanical part and how the hardware is set up, please refer to this video link :
 https://www.youtube.com/watch?v=2BHuGtoXZiI
